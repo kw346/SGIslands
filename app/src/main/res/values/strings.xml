@@ -4,7 +4,7 @@
     <string name="btn5Stars">Show all islands with 5 stars</string>
 
 
-    <string name="title_activity_main">Insert Song</string>
-    <string name="title_activity_second">Show Song</string>
-    <string name="title_activity_third">Modify Song</string>
+    <string name="title_activity_main">Insert Island</string>
+    <string name="title_activity_second">Show Island</string>
+    <string name="title_activity_third">Modify Island</string>
 </resources>
