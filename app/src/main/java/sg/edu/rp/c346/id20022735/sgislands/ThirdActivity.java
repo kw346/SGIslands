@@ -35,7 +35,7 @@ public class ThirdActivity extends AppCompatActivity {
         rb3 = findViewById(R.id.ratingBar3);
 
         Intent i = getIntent();
-        final Island currentIsland = (Island) i.getSerializableExtra("song");
+        final Island currentIsland = (Island) i.getSerializableExtra("island");
 
         etID.setText(currentIsland.getId()+"");
         etMZ.setText(currentIsland.getName());
@@ -55,7 +55,7 @@ public class ThirdActivity extends AppCompatActivity {
                 try {
                     dist = Integer.valueOf(etDIST.getText().toString().trim());
                 } catch (Exception e){
-                    Toast.makeText(ThirdActivity.this, "Invalid year", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ThirdActivity.this, "Invalid distance", Toast.LENGTH_SHORT).show();
                     return;
                 }
 

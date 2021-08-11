@@ -40,7 +40,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(SecondActivity.this, ThirdActivity.class);
-                i.putExtra("song", islandsList.get(position));
+                i.putExtra("island", islandsList.get(position));
                 startActivityForResult(i, requestCode);
             }
         });

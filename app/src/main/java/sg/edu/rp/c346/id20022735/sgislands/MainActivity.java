@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 long result = dbh.insertIsland(name, desc, dist, rating);
 
                 if (result != -1) {
-                    Toast.makeText(MainActivity.this, "Song inserted", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Island inserted", Toast.LENGTH_LONG).show();
                     etMz.setText("");
                     etDes.setText("");
                     etDis.setText("");
